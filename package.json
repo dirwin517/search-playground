@@ -1,0 +1,22 @@
+{
+  "name": "search-playground",
+  "version": "1.0.0",
+  "description": "Playing around with an interview question I heard from a friend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirwin517/search-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dirwin517/search-playground/issues"
+  },
+  "homepage": "https://github.com/dirwin517/search-playground#readme",
+  "dependencies": {
+    "word-list": "^1.0.1"
+  }
+}
