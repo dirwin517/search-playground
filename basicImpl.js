@@ -3,6 +3,10 @@
  */
 module.exports = function basicImpl(blacklist){
     return function isBlackListed(str){
-        return str.indexOf(blacklist) !== -1;
+        var blacklisted = false;
+        blacklist.forEach(function (item){
+            blacklisted |= str.indexOf(item) !== -1;
+        });
+        return blacklisted;
     };
 };
