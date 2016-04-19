@@ -40,6 +40,14 @@ module.exports = function treeImpl(blacklist){
                     }
                     state = tmp;
                 }
+                else {
+                    //tmp is undefined so we can skip to space
+                    while(str[i] && str[i] !== ' '){
+                        ++i;
+                    }
+                    ++i;
+                    state = tree;
+                }
             }
         }
         return false;
